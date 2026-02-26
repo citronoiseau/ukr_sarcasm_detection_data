@@ -1,11 +1,10 @@
-# Cross-Lingual Sarcasm Detection: Ukrainian Sarcasm Dataset
+# 🌍 Cross-Lingual Sarcasm Detection: Ukrainian Sarcasm Dataset
 
-This repository contains the training and evaluation datasets used in the preprint:
+[![Paper](https://img.shields.io/badge/Paper-ResearchGate-00ccbb.svg)](<[INSERT_RESEARCHGATE_URL_HERE](https://www.researchgate.net/publication/401229173_Overcoming_the_Alignment_Tax_Cross-Lingual_Sarcasm_Detection_with_Llama_3_in_Low-Resource_Contexts)>)
+[![Dataset](https://img.shields.io/badge/Dataset-tweet__eval-blue)](#)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](#)
 
-**Overcoming the Alignment Tax: Cross-Lingual Sarcasm Detection with Llama 3 in Low-Resource Contexts**  
-[Insert arXiv link here]
-
----
+## This repository contains the training and evaluation datasets used in the preprint: **[Overcoming the Alignment Tax: Cross-Lingual Sarcasm Detection with Llama 3 in Low-Resource Contexts](https://www.researchgate.net/publication/401229173_Overcoming_the_Alignment_Tax_Cross-Lingual_Sarcasm_Detection_with_Llama_3_in_Low-Resource_Contexts)**.
 
 ## Overview
 
@@ -88,8 +87,8 @@ If you use this dataset or methodology in your research, please cite the accompa
   title={Overcoming the Alignment Tax: Cross-Lingual Sarcasm Detection with Llama 3 in Low-Resource Contexts},
   author={Trubachova, Anastasiia},
   year={2026},
-  eprint={INSERT_ARXIV_ID},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
+  publisher={ResearchGate},
+  doi={10.13140/RG.2.2.25540.08327},
+  url={https://www.researchgate.net/publication/401229173_Overcoming_the_Alignment_Tax_Cross-Lingual_Sarcasm_Detection_with_Llama_3_in_Low-Resource_Contexts}
 }
 ```
