@@ -52,14 +52,10 @@ This subset consists of automatic translations generated via Google Translate. I
 
 This subset contains human-curated Ukrainian translations. Translation artifacts were manually corrected or removed. English-specific wordplay and culturally bound sarcasm lacking semantic equivalents in Ukrainian were filtered to preserve contextual incongruity while ensuring linguistic naturalness.
 
-The training data is pre-split into fixed sample sizes (100, 200, 500, 1000) to reproduce the sample-efficiency learning curves reported in the paper.
+This dataset consists of a primary training set and a strictly isolated evaluation set to guarantee zero data leakage during the final evaluation:
 
-#### Evaluation Sets & Data Leakage Prevention
-
-- `uk_eval_500.csv` — Primary evaluation set for models fine-tuned on the 100, 200, and 500-sample splits.
-- `uk_eval2_500.csv` — Strictly isolated evaluation set used exclusively for the 1,000-sample model.
-
-Because `uk_train_1000.csv` was constructed by combining the original `uk_train_500.csv` and `uk_eval_500.csv` to scale the training data, a new evaluation set (`uk_eval2_500.csv`) was created to guarantee zero data leakage during the final 1,000-sample evaluation.
+- **`uk_train_1000.csv`**: The full curated training set consisting of 1,000 contextual, human-verified sentences.
+- **`uk_eval_500.csv`**: An isolated evaluation set consisting of 500 sentences, used to test the model fine-tuned on the curated training data.
 
 ---
 
